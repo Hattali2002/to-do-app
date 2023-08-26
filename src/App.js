@@ -41,7 +41,7 @@ export default function App() {
             return <div key={index} className='my-4'>
               {element}
               <button className='mx-4 buttonDel' name='delete' onClick={()=>{filter(element)}}>
-              <i class="fa-solid fa-trash"></i>
+              <i className="fa-solid fa-trash"></i>
               </button>
             </div>
           })}
