@@ -1,0 +1,53 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #b8f1ee;
+    width: 500px; 
+    border-radius: 13px;
+}
+.buttonDel:hover{
+    background-color: #c93c3c;
+}
+.buttonDel{
+    border-radius: 100%;
+    border: 0px;
+    background-color: #62c2ed; 
+    width: 35px;
+    height: 35px;
+}
+.button{
+    border-radius: 100%;
+    border: 0px;
+    background-color: #62c2ed; 
+    width: 35px;
+    height: 35px;
+}
+.button:hover{
+    background-color: #158648; 
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    width: 300px;
+    border: 0px;
+    border-radius: 6px; 
+    border-bottom: 1px solid #1fc3eb;
+    font-family: cursive;
+}
+
+input:focus {
+    outline: none;
+}
